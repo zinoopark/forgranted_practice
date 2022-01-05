@@ -1,0 +1,140 @@
+body {
+  background-color: #ffffff;
+}
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  position: sticky;
+}
+
+.logo_forgranted {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo_container {
+  width: 30%;
+  height: 10vh;
+  border-right: 1px solid black;
+}
+
+.nav_item_container {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-left: 1px solid black;
+  font-size: 22px;
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 110vh;
+}
+
+#left-body {
+  border-right: 1px solid black;
+}
+
+#right-body {
+  background-color: #f5f5f5;
+}
+
+.search-bar-container {
+  box-sizing: content-box;
+  border: 1px solid black;
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-bar-input {
+  width: 90%;
+  height: 100%;
+  padding: 5%;
+  border-width: 0px;
+  box-sizing: border-box;
+}
+
+.search-bar-button {
+  border: 0px;
+  border-left: 1px solid black;
+  width: 10%;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
+}
+
+.search-bar-button:hover {
+  background-color: #ffffff;
+}
+.search-bar-button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.search-bar-button-img {
+  width: 35px;
+  object-fit: contain;
+}
+
+.gran {
+  width: 50%;
+}
+
+.gran {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .nav_item_container {
+    font-size: 15px;
+  }
+
+  .search-bar-container {
+    width: 80%;
+    display: flex;
+  }
+
+  .search-bar-button {
+    width: 48px;
+  }
+
+  .search-bar-input {
+    flex-grow: 1;
+    float: left;
+  }
+}
+
+/* 
+.mb-3 {
+  width: 50%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 33vh;
+}
+
+.fg-input {
+  border: none;
+  font-size: xx-large;
+}
+
+.fg-nav-content {
+  color: black;
+} */
