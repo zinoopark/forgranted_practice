@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/forgranted_practice/static/css/main.6cd30e43.css",
+    "main.js": "/forgranted_practice/static/js/main.5802f1b3.js",
+    "static/js/787.e93eee4d.chunk.js": "/forgranted_practice/static/js/787.e93eee4d.chunk.js",
+    "static/media/gran.gif": "/forgranted_practice/static/media/gran.2aab06e1dbca10539520.gif",
+    "static/media/logo.png": "/forgranted_practice/static/media/logo.9370b149dd9b58ca3d48.png",
+    "index.html": "/forgranted_practice/index.html",
+    "main.6cd30e43.css.map": "/forgranted_practice/static/css/main.6cd30e43.css.map",
+    "main.5802f1b3.js.map": "/forgranted_practice/static/js/main.5802f1b3.js.map",
+    "787.e93eee4d.chunk.js.map": "/forgranted_practice/static/js/787.e93eee4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6cd30e43.css",
+    "static/js/main.5802f1b3.js"
+  ]
+}
