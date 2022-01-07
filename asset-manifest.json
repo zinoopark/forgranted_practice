@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/forgranted_practice/static/css/main.09838a32.css",
-    "main.js": "/forgranted_practice/static/js/main.de6fd715.js",
+    "main.js": "/forgranted_practice/static/js/main.58838e06.js",
     "static/js/787.e93eee4d.chunk.js": "/forgranted_practice/static/js/787.e93eee4d.chunk.js",
     "static/media/gran.gif": "/forgranted_practice/static/media/gran.2aab06e1dbca10539520.gif",
     "static/media/logo.png": "/forgranted_practice/static/media/logo.9370b149dd9b58ca3d48.png",
     "index.html": "/forgranted_practice/index.html",
     "main.09838a32.css.map": "/forgranted_practice/static/css/main.09838a32.css.map",
-    "main.de6fd715.js.map": "/forgranted_practice/static/js/main.de6fd715.js.map",
+    "main.58838e06.js.map": "/forgranted_practice/static/js/main.58838e06.js.map",
     "787.e93eee4d.chunk.js.map": "/forgranted_practice/static/js/787.e93eee4d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09838a32.css",
-    "static/js/main.de6fd715.js"
+    "static/js/main.58838e06.js"
   ]
 }
