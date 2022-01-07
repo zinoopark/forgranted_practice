@@ -13,6 +13,7 @@ a {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: sticky;
+  top: 0px;
 }
 
 .logo_forgranted {
@@ -36,6 +37,19 @@ a {
   align-items: center;
   border-left: 1px solid black;
   font-size: 22px;
+}
+.nav_item {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 10vh;
+}
+.nav_item_first:hover {
+  background-color: skyblue;
+}
+
+.nav_item_second:hover {
+  background-color: aquamarine;
 }
 
 .body-container {
@@ -78,6 +92,7 @@ a {
 .search-bar-button {
   border: 0px;
   border-left: 1px solid black;
+  padding: 1px;
   width: 10%;
   height: 100%;
   float: right;

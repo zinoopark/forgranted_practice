@@ -23,12 +23,12 @@ function App() {
           </a>
         </div>
         <div className = 'nav_item_container'>
-          <div className = 'nav_item'>
+          <div className = 'nav_item nav_item_first'>
               <a href = '/'>
                 ABOUT
               </a>
           </div>
-          <div className = 'nav_item'>
+          <div className = 'nav_item nav_item_second'>
               <a href = 'https://smartstore.naver.com/minganing/products/4855424978?NaPm=ct%3Dkxytb648%7Cci%3D9ed8aee7320ed4668a13efc4c47e8af1e90c012a%7Ctr%3Dsls%7Csn%3D1184396%7Chk%3D1de101a37f7250e2ffd46e9951eb71b0f1a49431' target = '_blank'>
                 SHOP
               </a>
