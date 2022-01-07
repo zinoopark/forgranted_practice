@@ -10,6 +10,7 @@ a {
 .nav_bar {
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid black;
   border-bottom: 1px solid black;
   position: sticky;
 }
@@ -70,6 +71,10 @@ a {
   box-sizing: border-box;
 }
 
+.search-bar-input:focus {
+  outline: 2px solid red;
+}
+
 .search-bar-button {
   border: 0px;
   border-left: 1px solid black;
@@ -114,6 +119,10 @@ a {
 
   .search-bar-button {
     width: 48px;
+  }
+
+  .search-bar-button-img {
+    width: 30px;
   }
 
   .search-bar-input {
